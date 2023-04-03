@@ -14,7 +14,38 @@ article{
 }
 
 .first_article{
-    margin-top: 0px;
+    margin-top: 35px;
+}
+
+.all_bookmark{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+.bookmark_1{
+    position: absolute;
+    top: 110px;
+    right: 60px;
+}
+
+.bookmark_2{
+    position: absolute;
+    top: 340px;
+    right: 60px;
+}
+
+.bookmark_3{
+    position: absolute;
+    top: 550px;
+    right: 60px;
+}
+
+.bookmark_4{
+    position: absolute;
+    top: 760px;
+    right: 60px;
 }
 
 p{
