@@ -1,3 +1,8 @@
+body{
+    background-color: rgb(254, 254, 249);
+    font-family: "Roboto",Arial, serif;
+}
+
 h1{
     width: 100%;
     text-align: center;
@@ -11,16 +16,18 @@ article{
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 30px;
+    background-color: rgba(78, 119, 129, 0.755);
 }
 
 .first_article{
     margin-top: 35px;
 }
 
-.all_bookmark{
+.all_icons{
     border: none;
-    background-color: white;
+    background-color: rgba(246, 248, 204, 0.954);
     cursor: pointer;
+    border-radius: 15px;
     
 }
 
@@ -32,20 +39,26 @@ article{
 
 .bookmark_2{
     position: absolute;
-    top: 340px;
+    top: 336px;
     right: 60px;
 }
 
 .bookmark_3{
     position: absolute;
-    top: 550px;
+    top: 545px;
     right: 60px;
 }
 
 .bookmark_4{
     position: absolute;
-    top: 760px;
+    top: 750px;
     right: 60px;
+}
+
+.footer_buttons{
+    background-color: rgba(139, 209, 223, 0.392);
+    border-radius: 12px;
+    padding: 5px 10px 5px 10px;
 }
 
 p{
@@ -62,10 +75,24 @@ p{
     padding: 5px 15px 5px 15px;
     margin-top: 5px;
     margin-bottom: 35px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(161, 25, 32);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 0.3cm;
+}
+
+.type_answer{
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    border: none;
 }
 
 .last_article{
-    margin-bottom: 90px;
+    margin-bottom: 105px;
 }
 
 footer{
@@ -73,9 +100,9 @@ footer{
     width: 100%;
     bottom: 0;
     border-top: solid;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: white;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-color: rgb(254, 254, 249);
 }
 
 .div_footer{
