@@ -1,22 +1,23 @@
 body{
-    background-color: rgba(38, 121, 139, 0.629);
+    width: 100%;
+    background-color: rgba(31, 137, 161, 0.522);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
 }
 
 h1{
-    position: relative;
+    position: sticky;
     width: 100%;
     text-align: center;
     border-bottom: solid 1px;
     border-color: #ffffff;
-    background-color: rgba(0, 0, 0, 0.239);
+    background-color: rgba(0, 0, 0, 0.543);
     color: white;
-    padding-bottom: 20px;
-    padding-top: 15px;
-    margin-top: 0px;
-    font-size: 7vw;
-    text-shadow: 0.5px 0.5px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin: 0px;
+    font-size: 3.5vw;
+    text-shadow: 0.7px 0.7px;
     box-shadow: 1px 0.1px 20px 1px;
 }
 
@@ -26,50 +27,49 @@ article{
     padding: 15px;
     margin-left: 15%;
     margin-right: 15%;
-    margin-bottom: 30px;
-    background-color: rgba(182, 188, 96, 0.755);
-    box-shadow: 5px 5px 15px 2px rgba(81, 129, 132, 0.999);
+    margin-bottom: 8vw;
+    background-color: #07b79f;
+    box-shadow: 4px 5px 15px 5px rgba(81, 129, 132, 0.999);
 }
 
 .first_article{
-    margin-top: 35px;
+    margin-top: 8vw;
 }
 
 .all_icons{
     border: none;
-    background-color: rgba(9, 9, 6, 0);
+    background-color: rgba(17, 17, 10, 0);
     cursor: pointer;
 }
 
-.bookmark_1{
+.first_bookmark{
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: -2px;
+    right: 0px;
 }
 
-.bookmark_2{
+.second_bookmark{
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: -2px;
+    right: 0px;
 }
 
-.bookmark_3{
+.third_bookmark{
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: -2px;
+    right: 0px;
 }
 
 .bookmark_4{
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: -2px;
+    right: 0px;
 }
 
 p{
     text-align: center;
-    font-size: large;
     padding-bottom: 10px;
-    font-size: 4vw;
+    font-size: 2.6vw;
     font-weight: bold;
 }
 
@@ -81,13 +81,12 @@ p{
     padding: 5px 15px 5px 15px;
     margin-top: 5px;
     margin-bottom: 35px;
-    border: none;
+    border: dotted 2px;
     border-radius: 2px;
-    color: white;
-    background-color: rgba(208, 48, 56, 0.998);
+    color: rgb(0, 0, 0);
+    background-color: rgb(81, 255, 0);
     font-weight: bold;
-    font-style: italic;
-    font-size: 2.5vw;
+    font-size: 2vw;
     cursor: pointer;
 }
 
@@ -100,40 +99,45 @@ p{
 
 .type_answer{
     border: none;
-    background-color: rgba(78, 255, 116, 0.532);
-    font-size: 3vw;
+    margin-bottom: 2vw;
+    background-color: rgb(255, 68, 68);
+    font-size: 2.8vw;
+    border: none;
+    box-shadow: 1px 2px 5px 0px;
+    cursor: pointer;
 }
 
 .last_article{
-    margin-bottom: 120px;
+    margin-bottom: 18vw;
 }
 
 footer{
     position: fixed;
     width: 100%;
-    height: 10%;
-    bottom: 0px;
+    bottom: 0vw;
+    padding-top: 0px;
+    padding-bottom: 0px;
     border-top: solid 1px;
-    border-color: rgba(255, 255, 255, 0.252);
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border-color: #ffffff;
     background-color: rgb(164, 119, 119);
+    box-shadow: 0px 20px 100px 20px rgba(255, 255, 255, 0.378);
 }
 
 .div_footer{
-    display: flex;
-    position: absolute;
-    bottom: 20px
-
+    display: flex;    
 }
 
 .footer_buttons{
     position: relative;
-    bottom: -25px;
-    padding: 1px 5px 1px 1px;
-    background-color: rgba(108, 51, 51, 0.732);
+    bottom: 0vw;
+    height: 8vw;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    background-color: rgb(186, 85, 85);
     box-shadow: 0px 70px 80px 1px;
 }
+
+
 
 .third_page_icon{
     position: absolute;
