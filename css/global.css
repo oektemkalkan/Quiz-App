@@ -1,0 +1,143 @@
+body {
+    width: 100%;
+    background-color: rgba(31, 137, 161, 0.522);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+  }
+  
+  h1 {
+    position: sticky;
+    width: 100%;
+    text-align: center;
+    border-bottom: solid 1px;
+    border-color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.614);
+    color: white;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin: 0px;
+    font-size: 3.5vw;
+    text-shadow: 0.7px 0.7px;
+    box-shadow: 1px 0.1px 20px 1px;
+  }
+  
+  article {
+    position: relative;
+    border: none;
+    padding: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 8vw;
+    background-color: #d5d78d;
+    box-shadow: 4px 5px 15px 5px rgba(81, 129, 132, 0.999);
+  }
+  
+  .first_article {
+    margin-top: 8vw;
+  }
+  
+  .icon {
+    border: none;
+    background-color: rgba(17, 17, 10, 0);
+    cursor: pointer;
+  }
+  
+  .save1 {
+    position: absolute;
+    top: -2px;
+    right: 0px;
+  }
+  
+  .save2 {
+    position: absolute;
+    top: -2px;
+    right: 0px;
+  }
+  
+  .save3 {
+    position: absolute;
+    top: -2px;
+    right: 0px;
+  }
+  
+  .save4 {
+    position: absolute;
+    top: -2px;
+    right: 0px;
+  }
+  
+  .question {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 3.4vw;
+    font-weight: bold;
+  }
+  
+  .button_center {
+    text-align: center;
+  }
+  
+  .show_answer {
+    padding: 5px 15px 5px 15px;
+    margin-top: 5px;
+    margin-bottom: 35px;
+    border: dotted 1px;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(21, 255, 0);
+    font-weight: bold;
+    font-size: 3.4vw;
+    cursor: pointer;
+  }
+  
+  .button_answer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    border: none;
+  }
+  
+  .type_answer {
+    border: none;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    margin-bottom: 2vw;
+    background-color: rgb(138, 237, 255);
+    font-size: 3.4vw;
+    border: none;
+    box-shadow: 0px 1px 8px 0px rgb(234, 255, 2);
+    cursor: pointer;
+  }
+  
+  .last_article {
+    margin-bottom: 18vw;
+  }
+  
+  footer {
+    position: fixed;
+    width: 100%;
+    height: 8.5vw;
+    bottom: 0vw;
+    padding-top: 1vw;
+    padding-bottom: 0px;
+    border-top: solid 1px;
+    border-color: #ffffff;
+    background-color: rgb(71, 167, 148);
+    box-shadow: 0vw 1vw 55vw 0.2vw rgba(255, 255, 255, 0.494);
+  }
+  
+  .div_footer {
+    display: flex;
+  }
+  
+  .navigation {
+    position: relative;
+    bottom: 1vw;
+    height: 10.5vw;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    background-color: rgb(71, 167, 148);
+    box-shadow: 0px 70px 80px 1px;
+  }

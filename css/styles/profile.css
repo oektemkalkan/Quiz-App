@@ -1,0 +1,75 @@
+@import "/css/global.css";
+
+.container{
+  display: block;
+  justify-content: center;
+  margin-top: 35px;
+  margin-left: 12vw;
+  margin-right: 12vw;
+  height: 150vw;
+}
+
+.profile_main{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.profile_icon {
+    height: 20vw;
+    padding-left: 15vw;
+  }
+  
+  .third_page_name {
+    padding-left: 6vw;
+    padding-top: 4vw;
+    font-size: 4vw;
+    font-weight: bold;
+  }
+
+  .block_personal_text{
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+
+  .third_page_aboutme {
+    padding-left: 7vw;
+    font-size: 3.5vw;
+    font-weight: bold;
+    border-radius: 60px 60px 10px 10px;
+    background-color: #07b7a002;
+    box-shadow: 2px 3px 30px 5px rgba(255, 255, 255, 0.216);
+  }
+
+  .div_description{
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 5px;
+    background-color: #07b7a002;
+    box-shadow: 2px 3px 60px 5px rgba(255, 255, 255, 0.452);
+  }
+
+  .description_aboutme{
+    font-size: 3vw;
+  }
+
+  .question{
+    display: flex;
+    width: 23%;
+    margin-top: 8vw;
+    margin-left: 12vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 5px;
+    background-color: rgba(56, 134, 108, 0.631);
+  }
+
+  .format_question_icon{
+    margin-left: 2vw;
+    padding-right: 8vw;
+  }
+
+  .question_number{
+    font-size: 3vw;
+  }
