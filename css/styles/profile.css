@@ -15,13 +15,13 @@
 }
 
 .profile_icon {
-  height: 20vw;
+  height: 25vw;
   padding-left: 15vw;
 }
 
 .third_page_name {
   padding-left: 6vw;
-  padding-top: 4vw;
+  padding-top: 7vw;
   font-size: 4vw;
   font-weight: bold;
 }
@@ -58,7 +58,7 @@
   position: absolute;
   display: flex;
   width: 18%;
-  margin-top: 8vw;
+  margin-top: 10vw;
   margin-left: 12vw;
   padding-top: 1vw;
   padding-bottom: 1vw;
@@ -78,7 +78,7 @@
 .question2 {
   display: flex;
   width: 23%;
-  margin-top: 8vw;
+  margin-top: 10vw;
   margin-left: 45vw;
   padding-top: 1vw;
   padding-bottom: 1vw;
@@ -97,8 +97,25 @@
 }
 
 .settings{
-  margin-top: 12vw;
+  margin-top: 15vw;
   padding-left: 7vw;
   font-size: 3.5vw;
   font-weight: bold;
+}
+
+.display_flex_darkmode{
+  display: flex;
+  margin-top: 8vw;
+}
+
+.darkmode_p{
+  margin-left: 5vw;
+  font-size: 3vw;
+}
+
+.button_toggle{
+  margin-left: 40vw;
+  border: none;
+  background-color:rgba(0, 0, 0, 0);
+  cursor: pointer;
 }
