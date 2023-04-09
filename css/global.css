@@ -14,7 +14,7 @@ body {
     background-color: rgba(0, 0, 0, 0.614);
     color: white;
     padding-bottom: 25px;
-    padding-top: 25px;
+    padding-top: 35px;
     margin: 0px;
     font-size: 4.5vw;
     text-shadow: 0.7px 0.7px;
@@ -23,7 +23,6 @@ body {
   
   article {
     position: relative;
-    border: none;
     padding: 15px;
     margin-left: 15%;
     margin-right: 15%;
@@ -31,45 +30,21 @@ body {
     background-color: #d5d78d;
     box-shadow: 4px 5px 15px 5px rgba(81, 129, 132, 0.999);
   }
-
-  button.show_answer:hover{
-    border: dotted 1px;
-    border-color: rgb(255, 255, 255);
-    background-color: rgb(83, 255, 68);
-  }
   
   .first_article {
     margin-top: 8vw;
+  }
+
+  .save {
+    position: absolute;
+    top: -2px;
+    right: 0px;
   }
   
   .icon {
     border: none;
     background-color: rgba(17, 17, 10, 0);
     cursor: pointer;
-  }
-  
-  .save1 {
-    position: absolute;
-    top: -2px;
-    right: 0px;
-  }
-  
-  .save2 {
-    position: absolute;
-    top: -2px;
-    right: 0px;
-  }
-  
-  .save3 {
-    position: absolute;
-    top: -2px;
-    right: 0px;
-  }
-  
-  .save4 {
-    position: absolute;
-    top: -2px;
-    right: 0px;
   }
   
   .question {
@@ -79,28 +54,36 @@ body {
     font-weight: bold;
   }
   
-  .button_center {
+  .show_answer_center {
     text-align: center;
   }
   
   .show_answer {
     padding: 5px 15px 5px 15px;
     margin-top: 5px;
-    margin-bottom: 35px;
-    border: dotted 1px;
-    border-radius: 2px;
+    margin-bottom: 5vw;
+    border: solid 1px;
+    border-radius: 10px;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 107, 81);
     font-weight: bold;
     font-size: 3.4vw;
     cursor: pointer;
   }
+
+  button.show_answer:hover{
+    border: solid 1px white;
+    background-color: rgb(94, 255, 79);
+    transition: 0.45s;
+  }
   
-  .button_answer {
+  .section_button_answer {
     display: flex;
-    justify-content: center;
     justify-content: space-around;
-    border: none;
+    padding-top: 2vw;
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.277);
   }
   
   .type_answer {
@@ -111,23 +94,22 @@ body {
     padding-bottom: 0.5vw;
     margin-bottom: 2vw;
     background-color: rgb(138, 237, 255);
-    font-size: 3.4vw;
+    font-size: 3vw;
     border: none;
-    box-shadow: 0px 1px 8px 0px rgb(234, 255, 2);
+    box-shadow: 0px 1px 8px 0px rgba(255, 255, 255, 0.625);
     cursor: pointer;
   }
   
   .last_article {
-    margin-bottom: 18vw;
+    margin-bottom: 20vw;
   }
   
   footer {
     position: fixed;
     width: 100%;
     bottom: 0px;
-    border-top: solid 1px;
-    border-color: #ffffff;
-    box-shadow: 1px 0.1px 20px 1px rgba(255, 255, 255, 0.822);
+    border-top: solid 1px white;
+    box-shadow: 1px 0.1px 20px 1px rgba(255, 255, 255, 0.821);
   }
   
   .div_footer {
@@ -139,6 +121,6 @@ body {
     width: 34vw;
     height: 75px;
     background-color: rgb(71, 167, 148);
-    border-right: solid 1px rgb(0, 0, 0);
-    box-shadow: 1px 0px 1px 2px rgba(255, 246, 246, 0.822);
+    border-right: solid 1px rgba(7, 7, 7, 0.468);
+    box-shadow: 1px 0px 1px 2px rgba(255, 246, 246, 0.63);
   }
