@@ -38,8 +38,7 @@
   font-size: 3.5vw;
   font-weight: bold;
   border-radius: 60px 60px 10px 10px;
-  background-color: #dfd3c3b0;
-  box-shadow: 2px 3px 30px 5px rgb(255, 255, 255);
+  background-color: #dfd3c330;
 }
 
 .div_description {
@@ -48,8 +47,7 @@
   padding-top: 1vw;
   padding-bottom: 1vw;
   border-radius: 5px;
-  background-color: #c7b19867;
-  box-shadow: 2px 3px 60px 5px rgb(255, 255, 255);
+  background-color: #c7b19828;
 }
 
 .description_aboutme {
@@ -65,7 +63,7 @@
   padding-top: 1vw;
   padding-bottom: 1vw;
   border-radius: 5px;
-  background-color: #e6c79e;
+  background-color: #e6c79e89;
 }
 
 .format_question_icon {
@@ -86,7 +84,7 @@
   padding-top: 1vw;
   padding-bottom: 1vw;
   border-radius: 5px;
-  background-color: #e6c79e;;
+  background-color: #e6c79e89;;
 }
 
 .format_bookmark_icon {

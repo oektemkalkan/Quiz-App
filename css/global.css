@@ -9,15 +9,14 @@ h1 {
   position: sticky;
   width: 100%;
   text-align: center;
-  border-bottom: solid 2px rgb(255, 255, 255);
   background-color: #314047;
   color: #fffcf4;
+  border-bottom: solid 0.5px rgba(255, 255, 255, 0.468);
   padding-bottom: 25px;
   padding-top: 30px;
   margin: 0px;
   font-size: 4.5vw;
   text-shadow: 0.7px 0.7px;
-  box-shadow: 1px 0.1px 20px 1px;
 }
 
 article {
@@ -28,7 +27,6 @@ article {
   margin-bottom: 8vw;
   background-color: #dfd3c3;
   border-radius: 1px;
-  box-shadow: 5px 5px 15px 5px rgb(255, 255, 255);
 }
 
 .first_article {
@@ -82,7 +80,6 @@ button.show_answer:hover {
   padding-top: 2vw;
   border-radius: 1px;
   background-color: #d4c3af;
-  box-shadow: 0px 0px 10px 0px rgba(164, 137, 106, 0.759);
 }
 
 .type_answer {
@@ -95,13 +92,13 @@ button.show_answer:hover {
   background-color: #ffffff;
   font-size: 3vw;
   border: none;
-  box-shadow: 1px 1px 10px 0px white;
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.497);
   cursor: pointer;
 }
 
 button.type_answer:hover {
   box-shadow: 0px 0px 0px 0px black;
-  background-color: #f5f2ee;
+  background-color: #e7e2dd;
   transition: 0.45s;
 }
 
@@ -113,8 +110,7 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0px;
-  border-top: solid 1px white;
-  box-shadow: 1px 0.1px 20px 1px rgba(255, 255, 255, 0.815);
+  box-shadow: 1px 0.1px 20px 1px rgba(255, 255, 255, 0.133);
 }
 
 .div_footer {
@@ -127,5 +123,10 @@ footer {
   height: 10vw;
   background-color: #314047;
   border-right: solid 0px rgba(255, 255, 255, 0.468);
-  box-shadow: 1px 0px 1px 2px rgba(159, 159, 159, 0.276);
+  box-shadow: 1px 0px 1px 2px rgba(159, 159, 159, 0.133);
+}
+
+body.dark{
+  color: white;
+  background-color: #4d646f;
 }
