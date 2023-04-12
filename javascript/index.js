@@ -11,28 +11,10 @@ showFirstAnswer.addEventListener("click", () => {
 });
 
 function visible() {
-    var unhide = document.getElementById("solution_1");
+    var unhide = document.getElementById("solution");
     if (unhide.style.display === "none") {
         unhide.style.display = "block";
     } else {
         unhide.style.display = "none";
-    }
-  }
-
-  function visible2() {
-    var unhide2 = document.getElementById("solution_2");
-    if (unhide2.style.display === "none") {
-        unhide2.style.display = "block";
-    } else {
-        unhide2.style.display = "none";
-    }
-  }
-
-  function visible3() {
-    var unhide3 = document.getElementById("solution_3");
-    if (unhide3.style.display === "none") {
-        unhide3.style.display = "block";
-    } else {
-        unhide3.style.display = "none";
     }
   }
