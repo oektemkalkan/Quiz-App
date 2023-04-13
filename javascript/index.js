@@ -4,12 +4,15 @@ toggleColorButton.addEventListener("click", () => {
     bodydark.classList.toggle("dark");
 });
 
-const buttonGreen = document.querySelector('[data-js="flexbox_answer"]');
-const showFirstAnswer = document.querySelector('[data-js="show_answer_button"]');
+
+/*const buttonGreen = document.querySelector('[data-js="section_1"]');*/
+const showFirstAnswer = document.querySelector('[data-js="first_answer_1"]');
 showFirstAnswer.addEventListener("click", () => {
-    buttonGreen.classList.add("green");
+    /*buttonGreen.classList.add("green");*/
+    bodydark.classList.toggle("dark");
 });
 
+/*
 function visible() {
     var unhide = document.getElementById("solution");
     if (unhide.style.display === "none") {
@@ -18,3 +21,5 @@ function visible() {
         unhide.style.display = "none";
     }
   }
+  */
+ 

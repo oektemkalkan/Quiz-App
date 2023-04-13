@@ -38,14 +38,14 @@
           the axes in flexbox?
         </p>
         <section class="show_answer_center">
-          <button class="show_answer" data-js="show_answer_button" onclick="visible()">
+          <button class="show_answer" onclick="document.getElementById('answer_1').style.opacity='1'">
             Show Answer</button
           ><br />
         </section>
-        <p id="solution">flexbox</p>
-        <section class="section_button_answer">
+        <div id="answer_1" style="opacity: 0;"><p class="answer_p_element">flexbox</p></div>
+        <section class="section_button_answer" data-js="section_1">
           <button class="type_answer">HTML</button>
-          <button class="type_answer" data-js="flexbox_answer">flexbox</button>
+          <button class="type_answer" data-js="first_answer_1">flexbox</button>
           <button class="type_answer">css</button>
         </section>
       </article>
@@ -68,9 +68,9 @@
         </button>
         <p class="question">Lorem Impsum dolor sit?</p>
         <section class="show_answer_center">
-          <button class="show_answer">Show Answer</button><br />
+          <button class="show_answer" onclick="document.getElementById('answer_2').style.opacity='1'">Show Answer</button><br />
         </section>
-        <div><p class="hidden_answer">flexbox</p></div>
+        <div id="answer_2" style="opacity: 0;"><p class="answer_p_element">flexbox</p></div>
         <section class="section_button_answer">
           <button class="type_answer">HTML</button>
           <button class="type_answer">flexbox</button>
@@ -96,9 +96,9 @@
         </button>
         <p class="question">Lorem Impsum dolor sit?</p>
         <section class="show_answer_center">
-          <button class="show_answer">Show Answer</button><br />
+          <button class="show_answer" onclick="document.getElementById('answer_3').style.opacity='1'">Show Answer</button><br />
         </section>
-        <div><p class="hidden_answer">flexbox</p></div>
+        <div id="answer_3" style="opacity: 0;"><p class="answer_p_element">flexbox</p></div>
         <section class="section_button_answer">
           <button class="type_answer">HTML</button>
           <button class="type_answer" data-js="flexbox_answer">flexbox</button>
@@ -124,9 +124,9 @@
         </button>
         <p class="question">Lorem Impsum dolor sit?</p>
         <section class="show_answer_center">
-          <button class="show_answer">Show Answer</button><br />
+          <button class="show_answer" onclick="document.getElementById('answer_4').style.opacity='1'">Show Answer</button><br />
         </section>
-        <div><p class="hidden_answer">flexbox</p></div>
+        <div id="answer_4" style="opacity: 0;"><p class="answer_p_element">flexbox</p></div>
         <section class="section_button_answer">
           <button class="type_answer">HTML</button>
           <button class="type_answer">flexbox</button>
