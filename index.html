@@ -12,7 +12,7 @@
     <title>Quiz-App | Öktem K.</title>
   </head>
 
-  <body data-js="body">
+  <body>
     <header>
       <h1>Quiz App</h1>
     </header>
@@ -44,9 +44,9 @@
         </section>
         <div id="answer_1" style="opacity: 0;"><p class="answer_p_element">flexbox</p></div>
         <section class="section_button_answer" data-js="section_1">
-          <button class="type_answer">HTML</button>
-          <button class="type_answer" data-js="first_answer_1">flexbox</button>
-          <button class="type_answer">css</button>
+          <button class="type_answer" data-js="wrong_1">HTML</button>
+          <button class="type_answer" data-js="real_answer_1">flexbox</button>
+          <button class="type_answer" data-js="wrong_1.1">css</button>
         </section>
       </article>
 
@@ -71,10 +71,10 @@
           <button class="show_answer" onclick="document.getElementById('answer_2').style.opacity='1'">Show Answer</button><br />
         </section>
         <div id="answer_2" style="opacity: 0;"><p class="answer_p_element">flexbox</p></div>
-        <section class="section_button_answer">
-          <button class="type_answer">HTML</button>
-          <button class="type_answer">flexbox</button>
-          <button class="type_answer">css</button>
+        <section class="section_button_answer" data-js="section_2">
+          <button class="type_answer" data-js="wrong_2">HTML</button>
+          <button class="type_answer" data-js="real_answer_2">flexbox</button>
+          <button class="type_answer" data-js="wrong_2.1">css</button>
         </section>
       </article>
 

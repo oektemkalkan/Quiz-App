@@ -1,17 +1,20 @@
-const bodydark = document.querySelector('[data-js="body"]');
-const toggleColorButton = document.querySelector('[data-js="toggle_js"]');
-toggleColorButton.addEventListener("click", () => {
-    bodydark.classList.toggle("dark");
-});
-
-
-/*const buttonGreen = document.querySelector('[data-js="section_1"]');*/
-const showFirstAnswer = document.querySelector('[data-js="first_answer_1"]');
+const buttonGreen = document.querySelector('[data-js="section_1"]');
+const showFirstAnswer = document.querySelector('[data-js="real_answer_1"]');
 showFirstAnswer.addEventListener("click", () => {
-    /*buttonGreen.classList.add("green");*/
-    bodydark.classList.toggle("dark");
+    buttonGreen.classList.add("green");
 });
 
+const buttonRed = document.querySelector('[data-js="section_1"]');
+const showFirstFalse = document.querySelector('[data-js="wrong_1"]');
+showFirstFalse.addEventListener("click", () => {
+    buttonRed.classList.add("red");
+});
+
+const buttonRed1 = document.querySelector('[data-js="section_1"]');
+const showFirstFalse1 = document.querySelector('[data-js="wrong_1.1"]');
+showFirstFalse1.addEventListener("click", () => {
+    buttonRed1.classList.add("red");
+});
 /*
 function visible() {
     var unhide = document.getElementById("solution");
