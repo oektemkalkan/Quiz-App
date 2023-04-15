@@ -15,6 +15,11 @@ const showFirstFalse1 = document.querySelector('[data-js="wrong_1.1"]');
 showFirstFalse1.addEventListener("click", () => {
     buttonRed1.classList.add("red");
 });
+
+document.getElementById('submit').onclick = function() {
+    this.textContent = 'Hide Answer';
+}
+
 /*
 function visible() {
     var unhide = document.getElementById("solution");
