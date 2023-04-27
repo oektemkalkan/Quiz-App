@@ -12,8 +12,8 @@ h1 {
   background-color: #314047;
   color: #fffcf4;
   border-bottom: solid 0.5px rgba(255, 255, 255, 0.468);
-  padding-bottom: 25px;
-  padding-top: 30px;
+  padding-bottom: 4.5vw;
+  padding-top: 4.5vw;
   margin: 0px;
   font-size: 4.5vw;
   text-shadow: 0.7px 0.7px;
@@ -120,6 +120,7 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0px;
+  margin: 0px;
   box-shadow: 1px 0.1px 20px 1px rgba(255, 255, 255, 0.133);
 }
 
@@ -128,7 +129,7 @@ footer {
 }
 
 .navigation {
-  bottom: 0vw;
+  bottom: 0px;
   width: 25vw;
   height: 10vw;
   background-color: #314047;

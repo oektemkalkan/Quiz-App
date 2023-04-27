@@ -5,6 +5,7 @@ toggleColorButton.addEventListener("click", (e) => {
   bodydark.classList.toggle("dark");
 });
 
+// some Tests to link Pages
 /*
 const index = document.querySelector('[data-js="index"]');
 form.addEventListener("click", (e) => {
