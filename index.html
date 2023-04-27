@@ -38,11 +38,17 @@
           the axes in flexbox?
         </p>
         <section class="show_answer_center">
-          <button id="submit" class="show_answer" onclick="document.getElementById('answer_1').style.opacity='1'">
+          <button
+            id="submit"
+            class="show_answer"
+            onclick="document.getElementById('answer_1').style.opacity='1'"
+          >
             Show Answer</button
           ><br />
         </section>
-        <div id="answer_1" style="opacity: 0;"><p class="answer_p_element">flexbox</p></div>
+        <div id="answer_1" style="opacity: 0">
+          <p class="answer_p_element">flexbox</p>
+        </div>
         <section class="section_button_answer" data-js="section_1">
           <button class="type_answer" data-js="wrong_1">HTML</button>
           <button class="type_answer" data-js="real_answer_1">flexbox</button>
@@ -68,9 +74,16 @@
         </button>
         <p class="question">Lorem Impsum dolor sit?</p>
         <section class="show_answer_center">
-          <button class="show_answer" onclick="document.getElementById('answer_2').style.opacity='1'">Show Answer</button><br />
+          <button
+            class="show_answer"
+            onclick="document.getElementById('answer_2').style.opacity='1'"
+          >
+            Show Answer</button
+          ><br />
         </section>
-        <div id="answer_2" style="opacity: 0;"><p class="answer_p_element">flexbox</p></div>
+        <div id="answer_2" style="opacity: 0">
+          <p class="answer_p_element">flexbox</p>
+        </div>
         <section class="section_button_answer" data-js="section_2">
           <button class="type_answer" data-js="wrong_2">HTML</button>
           <button class="type_answer" data-js="real_answer_2">flexbox</button>
@@ -96,9 +109,16 @@
         </button>
         <p class="question">Lorem Impsum dolor sit?</p>
         <section class="show_answer_center">
-          <button class="show_answer" onclick="document.getElementById('answer_3').style.opacity='1'">Show Answer</button><br />
+          <button
+            class="show_answer"
+            onclick="document.getElementById('answer_3').style.opacity='1'"
+          >
+            Show Answer</button
+          ><br />
         </section>
-        <div id="answer_3" style="opacity: 0;"><p class="answer_p_element">flexbox</p></div>
+        <div id="answer_3" style="opacity: 0">
+          <p class="answer_p_element">flexbox</p>
+        </div>
         <section class="section_button_answer">
           <button class="type_answer">HTML</button>
           <button class="type_answer" data-js="flexbox_answer">flexbox</button>
@@ -124,9 +144,16 @@
         </button>
         <p class="question">Lorem Impsum dolor sit?</p>
         <section class="show_answer_center">
-          <button class="show_answer" onclick="document.getElementById('answer_4').style.opacity='1'">Show Answer</button><br />
+          <button
+            class="show_answer"
+            onclick="document.getElementById('answer_4').style.opacity='1'"
+          >
+            Show Answer</button
+          ><br />
         </section>
-        <div id="answer_4" style="opacity: 0;"><p class="answer_p_element">flexbox</p></div>
+        <div id="answer_4" style="opacity: 0">
+          <p class="answer_p_element">flexbox</p>
+        </div>
         <section class="section_button_answer">
           <button class="type_answer">HTML</button>
           <button class="type_answer">flexbox</button>
@@ -136,13 +163,12 @@
 
       <footer>
         <section class="div_footer">
-          <a href="index.html">
             <button class="navigation icon" aria-label="house">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40%"
                 height="40%"
-                fill="#97846e"
+                fill="#f0ece2"
                 class="bi bi-house-fill"
                 viewBox="0 0 16 16"
                 alt="house icon"
@@ -155,7 +181,6 @@
                 />
               </svg>
             </button>
-          </a>
           <a href="bookmark.html">
             <button class="navigation icon" aria-label="bookmark">
               <svg
@@ -163,12 +188,31 @@
                 width="40%"
                 height="40%"
                 fill="#f0ece2"
-                class="bi bi-bookmark-fill"
+                class="bi bi-bookmark"
                 viewBox="0 0 16 16"
-                alt="bookmark icon"
               >
                 <path
-                  d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"
+                  d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                />
+              </svg>
+            </button>
+          </a>
+          <a href="form.html">
+            <button class="navigation icon" aria-label="form">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40%"
+                height="40%"
+                fill="#f0ece2"
+                class="bi bi-plus-square"
+                viewBox="0 0 16 16"
+                alt="form icon"
+              >
+                <path
+                  d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"
+                />
+                <path
+                  d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"
                 />
               </svg>
             </button>
@@ -177,17 +221,14 @@
             <button class="navigation icon" aria-label="profile">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="40%"
-                height="40%"
+                width="50%"
+                height="50%"
                 fill="#f0ece2"
-                class="bi bi-person-circle"
+                class="bi bi-person"
                 viewBox="0 0 16 16"
-                alt="profile icon"
               >
-                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
                 <path
-                  fill-rule="evenodd"
-                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+                  d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"
                 />
               </svg>
             </button>
