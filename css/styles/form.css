@@ -11,14 +11,47 @@ p{
     margin-bottom: 2vw;
     font-size: 2.5vw;
     padding: 1vw;
-    margin-right: 20vw;
+    margin-right: 30vw;
     background-color: #c7b19828;
     border-radius: 5px;
+    
 }
 
-input {
-    text-align: top;
+textarea {
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 10vw;
-    background-color: #fdf8c9;
+    background-color: #fdfce6;
+    border: none;
 }
+
+.answer_header{
+    margin-top: 10vw;
+}
+
+.tag_header{
+    margin-top: 10vw;
+}
+
+.submit_center--div{
+    display: flex;
+    justify-content: center;
+}
+
+.submit{
+    margin-top: 5vw;
+    background-color: #e5430f;
+    border-radius: 5px;
+    border: none;
+    font-size: 3vw;
+    color: white;
+    padding: 5px;
+    margin-bottom: 20vw;
+}
+
+button.submit:hover {
+    border: solid 1.5px white;
+    background-color: #e6c79e89;
+    transition: 0.45s;
+  }

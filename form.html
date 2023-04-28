@@ -14,13 +14,17 @@
     <form>
       <p>Your question:</p>
       <label for="question"></label>
-      <input type="text">
+      <textarea type="text" ></textarea>
       <p class="answer_header">Your answer:</p>
       <label for="question"></label>
-      <input type="text">
+      <textarea type="text" ></textarea>
       <p class="tag_header">Tag:</p>
       <label for="question"></label>
-      <input type="text">
+      <textarea type="text" ></textarea>
+      <div class="submit_center--div">
+        <button class="submit" type="submit">Submit</button>
+      </div>
+      <div data-js="new_question"></div>
     </form>
     <main>
       <footer>
@@ -92,4 +96,5 @@
       </footer>
     </main>
   </body>
+  <script src="javascript/form.js"></script>
 </html>
